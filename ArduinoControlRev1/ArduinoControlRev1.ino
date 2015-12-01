@@ -41,10 +41,10 @@ void loop()
       int motor2 = (temp.substring(6,10)).toInt();
       int motor3 = (temp.substring(11,15)).toInt();
       int motor4 = (temp.substring(16,20)).toInt();
-      //Serial.println(motor1);
-      //Serial.println(motor2);
-      //Serial.println(motor3);
-      //Serial.println(motor4);
+      Serial.println(motor1);
+      Serial.println(motor2);
+      Serial.println(motor3);
+      Serial.println(motor4);
       firstESC.writeMicroseconds(motor1);
       secondESC.writeMicroseconds(motor2);
       thirdESC.writeMicroseconds(motor3);
